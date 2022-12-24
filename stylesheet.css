@@ -13,7 +13,7 @@ body{
 .OuterContainer{
     width: 99%;
     min-height: 99vh;
-    background-color: black;
+  
  
 }
 
@@ -35,5 +35,105 @@ header{
 .color{
     width: 20%;
     height: 100%;
+    position: relative;
 }
 
+
+.colorDetails{
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colorDetails h2{
+    font-size: 30px;
+}
+
+.colorDetails p{
+    font-size: 22px;
+}
+
+.colorNavigation{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.colorNavigation img{
+    object-fit: contain;
+    width: 10%;
+    cursor: pointer;
+}
+
+.color:hover .colorNavigation {
+    visibility: visible;
+}
+
+.locked{
+color: black
+}
+
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 850px){
+    .mobile{
+        display: block;
+    }
+
+    header h2{
+        display: none;
+    }
+
+    .colorContainer {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .color{
+        width: 100%;
+        height: 20%;
+        position: relative;
+    }
+
+    .colorNavigation{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        visibility: visible;
+    }
+
+    .colorNavigation img{
+        object-fit: contain;
+        width: 10%;
+        cursor: pointer;
+    }
+
+    .colorDetails{
+        width: 40%;
+        height: 100%;
+        right: 0;
+        
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+}
