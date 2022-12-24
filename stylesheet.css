@@ -87,6 +87,18 @@ color: black
 }
 
 @media only screen and (max-width: 850px){
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    header{
+        background-color: rebeccapurple;
+    }
+
     .mobile{
         display: block;
     }
@@ -134,6 +146,7 @@ color: black
         align-items: center;
         flex-direction: column;
     }
+
 
 
 }
