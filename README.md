@@ -15,3 +15,11 @@ The color palette project was created as a way to combine and apply all of the k
 
 ![Screenshot](assets/Screenshot%20(90).png)
 
+
+### Tech/framework used
+
+⋅⋅* HTML.
+⋅⋅* CSS.
+⋅⋅* Javascript.
+⋅⋅* [Color Api](https://github.com/meodai/color-names#api-)
+
