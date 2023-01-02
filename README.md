@@ -18,8 +18,8 @@ The color palette project was created as a way to combine and apply all of the k
 
 ### Tech/framework used
 
-⋅⋅* HTML.
-⋅⋅* CSS.
-⋅⋅* Javascript.
-⋅⋅* [Color Api](https://github.com/meodai/color-names#api-)
+* HTML.
+* CSS.
+* Javascript.
+* [Color Api](https://github.com/meodai/color-names#api-)
 
